@@ -33,6 +33,8 @@ eraser.onclick = function(){
   pen.classList.remove('active')
 }
 
+red.click()
+
 // 颜色控制逻辑
 red.onclick = function(){
     context.strokeStyle = 'red'
