@@ -108,6 +108,7 @@ function drawCircle(x, y, radius) {
 // 绘制线
 function drawLine(x1, y1, x2, y2) {
   context.beginPath();
+  context.fillStyle = 'red'
   context.moveTo(x1, y1) // 起点
   context.lineWidth = lineWidth
   context.lineTo(x2, y2) // 终点
